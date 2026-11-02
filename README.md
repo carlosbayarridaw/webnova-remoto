@@ -18,4 +18,4 @@
 
 Git rechazó el push porque en github ya había cambios que yo todavía no tenía en local, me pasó algo parecido en la práctica anterior con los HTML, pero allí el conflicto fue entre dos ramas y esta vez entre mi repositorio local y github.
 
-Para solucionarlo usé git pull --rebase, que primero trae los cambios de github y después aplica los míos. Como los dos habíamos modificado el mismo archivo, tuve que juntar los cambios para poder subirlo todo sin crear un commit extra con merge, dejando el historial más ordenado y en línea recta.
+Para solucionarlo usé git pull --rebase, que primero trae los cambios de github y después aplica los míos, como dos personas habían modificado el mismo archivo, tuve que juntar los cambios para poder subirlo todo sin crear un commit extra con merge, dejando el historial más ordenado y en línea recta.
